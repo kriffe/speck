@@ -8,7 +8,7 @@ Speck is a molecule renderer with the goal of producing figures that are as attr
 
 ## Try it live
 
-Try speck out live in your browser here: http://wwwtyro.github.io/speck/
+Updated version testable at: http://molecules.skymaker.se
 
 ## Features
 
