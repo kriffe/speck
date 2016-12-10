@@ -10,6 +10,20 @@ Speck is a molecule renderer with the goal of producing figures that are as attr
 
 Updated version testable at: http://molecules.skymaker.se
 
+## Fiddle with it
+
+Clone it and run
+
+```
+npm install
+
+npm install nodemon -g
+
+npm start
+
+npm run watch
+´´´
+
 ## Features
 
 #### Ambient Occlusion
