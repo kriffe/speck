@@ -1,6 +1,7 @@
 module.exports = [
-    {name: "Testosterone", file: "testosterone.xyz"},
-    {name: "Caffeine", file: "caffeine.xyz"},
+	{name: "Caffeine", file: "caffeine.xyz"},
+    {name: "Water", file: "h2o.xyz"},
+	{name: "Testosterone", file: "testosterone.xyz"},
     {name: "Protein 4E0O", file: "4E0O.xyz"},
     {name: "Protein 4QCI", file: "4QCI.xyz"},
     {name: "DNA", file: "dna.xyz"},

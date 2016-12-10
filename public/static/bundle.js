@@ -15948,6 +15948,7 @@ function loadSample() {
         url: "static/samples/" + selector.value,
         success: function(data) {
             loadStructure(xyz(data)[0]);
+			document.getElementById("xyz-data").value = data;
         }
     });
 }
@@ -16970,8 +16971,9 @@ function loadProgram(gl, src) {
 
 },{"./cube":5,"./elements":6,"./gl-matrix":7,"./system":13,"./view":14,"./webgl.js":15}],12:[function(require,module,exports){
 module.exports = [
-    {name: "Testosterone", file: "testosterone.xyz"},
-    {name: "Caffeine", file: "caffeine.xyz"},
+	{name: "Caffeine", file: "caffeine.xyz"},
+    {name: "Water", file: "h2o.xyz"},
+	{name: "Testosterone", file: "testosterone.xyz"},
     {name: "Protein 4E0O", file: "4E0O.xyz"},
     {name: "Protein 4QCI", file: "4QCI.xyz"},
     {name: "DNA", file: "dna.xyz"},

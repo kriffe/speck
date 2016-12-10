@@ -60,6 +60,7 @@ function loadSample() {
         url: "static/samples/" + selector.value,
         success: function(data) {
             loadStructure(xyz(data)[0]);
+			document.getElementById("xyz-data").value = data;
         }
     });
 }
