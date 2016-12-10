@@ -1,16 +1,23 @@
 {
   "name": "speck",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "brfs": "~1.2.0",
-    "jquery": "^2.1.3",
-    "keyboardjs": "^0.4.2",
-    "lz-string": "^1.4.1"
+    "fs": "0.0.1-security",
+    "jquery": "^2.2.4",
+    "keyboardjs": "^0.4.3",
+    "lz-string": "^1.4.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.14.0",
+    "watchify": "^3.7.0"
+  },
   "scripts": {
+    "start": "nodemon server.js",
+    "watch": "watchify -t brfs src/main.js -o public/static/bundle.js -v",
+    "build": "browserify -t brfs src/main.js > public/static/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
